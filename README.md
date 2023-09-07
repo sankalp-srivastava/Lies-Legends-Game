@@ -1,1 +1,1 @@
-# Lies-Legends-Game
+# Lies & Legends Game
