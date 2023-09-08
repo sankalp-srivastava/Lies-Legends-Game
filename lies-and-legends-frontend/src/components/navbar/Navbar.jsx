@@ -17,21 +17,13 @@ const pages = ["Home", "How to Play", "About"];
 
 function Navbar() {
 	const [anchorElNav, setAnchorElNav] = React.useState(null);
-	const [anchorElUser, setAnchorElUser] = React.useState(null);
 
 	const handleOpenNavMenu = (event) => {
 		setAnchorElNav(event.currentTarget);
 	};
-	const handleOpenUserMenu = (event) => {
-		setAnchorElUser(event.currentTarget);
-	};
 
 	const handleCloseNavMenu = () => {
 		setAnchorElNav(null);
-	};
-
-	const handleCloseUserMenu = () => {
-		setAnchorElUser(null);
 	};
 
 	return (
@@ -69,7 +61,7 @@ function Navbar() {
 						sx={{
 							flexGrow: 1,
 							display: { xs: "flex", md: "none" },
-							justifyContent: "right",
+							// justifyContent: "right",
 							gap: "5px",
 						}}
 					>
